@@ -31,7 +31,7 @@ const GrowingButton = () => {
           }
           return prevSize - 10;
         });
-      }, 500);
+      },50);
       setBtnStatus(false);
     }else{
       clearInterval(intervalRef.current);
@@ -45,7 +45,7 @@ const GrowingButton = () => {
           }
           return prevSize + 10;
         });
-      }, 500); 
+      }, 50); 
       setBtnStatus(true);
     }
     
